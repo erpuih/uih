@@ -1,0 +1,107 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/QLKTBackground.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ndtDivIndexChangelog {
+    height: 50%;
+    width: 95%;
+    overflow: auto;
+    padding: 10px;
+    border: 1px solid rgba(45, 45, 45, 0.6);
+    box-shadow: 0 0 5px rgba(45, 45, 45, 0.6);
+}
+
+.ndtDivIndexChangelog div {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ndtDivIndexChangelog p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-style: italic;
+}
+
+.ndtDivIndexChangelog .tab-1 {
+    margin-left: 10px;
+}
+
+.ndtDivIndexChangelog .tab-2 {
+    margin-left: 30px;
+}
+
+.ndtDivIndexFoot {
+    width: 100%;
+    margin-bottom: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ndtDivIndexHead {
+    display: flex;
+}
+
+.ndtDivIndexHead img {
+    max-height: 35px;
+}
+
+.ndtDivIndexMain {
+    height: 80%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.ndtDivIndexRedirect {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3px;
+    row-gap: 10px;
+}
+
+.ndtDivIndexRedirect a {
+    padding: 8px 6px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.ndtDivIndexTitle {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .ndtDivIndexMain {
+        height: 75%;
+        width: 80%;
+    }
+}
